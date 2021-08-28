@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd "$PROJECTR_FOLDER/main"
+echo "this might take a while"
+python seed.py

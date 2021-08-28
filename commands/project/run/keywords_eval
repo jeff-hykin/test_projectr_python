@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd "$PROJECTR_FOLDER/main"
+echo "this might take a while"
+cat keywords.txt | python evaluation.py > keywords_results.tsv
