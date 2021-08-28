@@ -37,6 +37,14 @@
     # and know that seeing `pkgs` online translates to `main.packages` inside the shell.nix file
 
 
+[[packages]]
+load = [ "elasticsearch7",]
+from = "3f50332bc4913a56ad216ca01f5d0bd24277a6b2"
+
+[[packages]]
+load = [ "kibana7",]
+from = "3f50332bc4913a56ad216ca01f5d0bd24277a6b2"
+
 # 
 # Python
 # 
