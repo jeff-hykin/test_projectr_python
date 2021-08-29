@@ -2,6 +2,11 @@
 # Custom
 # 
 env/
+elasticsearch/bin/
+elasticsearch/jdk.app/
+elasticsearch/data/
+elasticsearch/logs/
+kibana/
 
 # 
 # standard
