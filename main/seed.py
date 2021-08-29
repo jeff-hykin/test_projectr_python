@@ -19,7 +19,7 @@ starting_line = 0
 ending_line = 534057
 while True:
     movie_data = []
-    num_at_a_time = 1000
+    num_at_a_time = 50
     print("Starting " + str(num_indexed) + "...")
     for j in range(num_at_a_time):
         line = file.readline()
