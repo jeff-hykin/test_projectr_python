@@ -3,7 +3,7 @@ from elasticsearch import Elasticsearch, ElasticsearchException, helpers
 import requests
 from bs4 import BeautifulSoup
 
-es = Elasticsearch(["https://search-moviemash-komc6gxtigbpu4dwoz4rchnzzu.us-east-2.es.amazonaws.com"])
+es = Elasticsearch()
 
 movies_index = "movie-synopses2"
 
